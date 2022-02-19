@@ -24,38 +24,44 @@ h1 {
   margin-bottom: 2rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 2.2rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 2.3rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 2.4rem;
   }
 }
 
 @media screen and (min-width: 1360px) {
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 2.5rem;
   }
 }
 
 @media screen and (min-width: 1530px) {
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 2.6rem;
   }
 }
@@ -191,6 +197,19 @@ h1, h2 {
   color: black;
 }
 
+.header .btn-to-bottom {
+  position: absolute;
+  top: 30px;
+  right: -5%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1530px) {
+  .header .btn-to-bottom {
+    display: block;
+  }
+}
+
 .navbar-mobile {
   position: fixed;
   top: 50px;
@@ -222,6 +241,7 @@ h1, h2 {
   right: 10%;
   font-size: 2rem;
   color: #ffb400;
+  cursor: pointer;
 }
 
 .navbar-mobile .nav-mobile {
@@ -238,6 +258,11 @@ h1, h2 {
 
 .navbar-mobile .nav-mobile .nav-mobile-item a {
   font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-mobile .nav-mobile .nav-mobile-item a:hover {
+  color: #ffb400;
 }
 
 .btn-uptotop {
@@ -245,6 +270,7 @@ h1, h2 {
   bottom: 5%;
   right: 5%;
   z-index: 999999;
+  display: none;
   cursor: pointer;
 }
 

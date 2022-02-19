@@ -22,3 +22,4 @@ function handleMobileNavbarMenuClick(id){
 }
 
 window.addEventListener("scroll",() => document.querySelector('.btn-uptotop').style.display = window.pageYOffset > 1000 ? 'block' : 'none')
+window.addEventListener("scroll",() => document.querySelector('.btn-to-bottom').style.display = window.pageYOffset < 1000 ? 'block' : 'none')
