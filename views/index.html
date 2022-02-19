@@ -23,19 +23,39 @@
         <img class="header-logo" src="/public/assets/images/logo.png" />
         <nav class="navbar">
             <ul class="nav">
-                <li class="nav-item"><a class=""  id="link-service" onclick="handleLinkClick('service')">บริการของเรา</a></li>
-                <li class="nav-item"><a class=""  id="link-step" onclick="handleLinkClick('step')">ขั้นตอนการจัดไฟแนนซ์</a> </li>
-                <li class="nav-item"><a class=""  id="link-document" onclick="handleLinkClick('document')">เอกสารต้องใช้</a> </li>
-                <li class="nav-item"><a class=""  id="link-props" onclick="handleLinkClick('props')">คุณสมบัติผู้กู้</a> </li>
-                <li class="nav-item"><a class=""  id="link-contact" onclick="handleLinkClick('contact')">ติดต่อเรา</a> </li>
+                <li class="nav-item"><a class="active"  id="link-service" onclick="handleNavbarMenuClick('service')">บริการของเรา</a></li>
+                <li class="nav-item"><a class=""  id="link-step" onclick="handleNavbarMenuClick('step')">ขั้นตอนการจัดไฟแนนซ์</a> </li>
+                <li class="nav-item"><a class=""  id="link-document" onclick="handleNavbarMenuClick('document')">เอกสารต้องใช้</a> </li>
+                <li class="nav-item"><a class=""  id="link-props" onclick="handleNavbarMenuClick('props')">คุณสมบัติผู้กู้</a> </li>
+                <li class="nav-item"><a class=""  id="link-contact" onclick="handleNavbarMenuClick('contact')">ติดต่อเรา</a> </li>
                 <li class="nav-item mr-0"><a class="" onclick="handleLinkMapClick()"><img src="/public/assets/images/pin.png" alt="" srcset=""></a> </li>
             </ul>
         </nav>
+        <a href="#" class="btn-hamburger" onclick="handleBtnHamburgerClick()">
+            <i class="fa-solid fa-bars"></i>
+        </a>
     </header>
+    <nav class="navbar-mobile">
+        <i class="fa-solid fa-circle-xmark" onclick="this.closest('.navbar-mobile').classList.remove('active')"></i>
+        <ul class="nav-mobile">
+            <li class="nav-mobile-item"><a class="" onclick="handleMobileNavbarMenuClick('service')">บริการของเรา</a></li>
+            <li class="nav-mobile-item"><a class="" onclick="handleMobileNavbarMenuClick('step')">ขั้นตอนการจัดไฟแนนซ์</a> </li>
+            <li class="nav-mobile-item"><a class="" onclick="handleMobileNavbarMenuClick('document')">เอกสารต้องใช้</a> </li>
+            <li class="nav-mobile-item"><a class="" onclick="handleMobileNavbarMenuClick('props')">คุณสมบัติผู้กู้</a> </li>
+            <li class="nav-mobile-item"><a class="" onclick="handleMobileNavbarMenuClick('contact')">ติดต่อเรา</a> </li>
+            <li class="nav-mobile-item"><a class="" onclick="handleMobileNavbarMenuClick('map')">แผนที่</a> </li>
+        </ul>
+    </nav>
+
+    <a class="btn-uptotop" style="display:none" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+        <i class="fa-solid fa-circle-up"></i>
+    </a>
+
     <section class="banner container">
         <img src="/public/assets/images/cover.jpg" alt="">
     </section>
     <section class="content container">
+        <h1>รีย้ายไฟแนนซ์ไม่เช็กบูโร เก๋ง กระบะ สิบล้อ</h1>
         <p class="indent">รับจัดไฟแนนซ์ รับย้ายไฟแนนซ์ รับรีไฟแนนซ์ ปิดบัญชี รับจำนำทะเบียน รถเก๋ง กระบะ สิบล้อ
             ไม่เช็กแบล็คลิสต์ ไม่เช็กเครดิตบูโร สำหรับลูกค้าใน</p>
         </br>

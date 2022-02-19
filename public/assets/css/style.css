@@ -20,38 +20,42 @@ strong {
   margin-right: auto;
 }
 
-h2 {
+h1 {
+  margin-bottom: 2rem;
+}
+
+h1, h2 {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
-  h2 {
+  h1, h2 {
     font-size: 2.2rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  h2 {
+  h1, h2 {
     font-size: 2.3rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  h2 {
+  h1, h2 {
     font-size: 2.4rem;
   }
 }
 
 @media screen and (min-width: 1360px) {
-  h2 {
+  h1, h2 {
     font-size: 2.5rem;
   }
 }
 
 @media screen and (min-width: 1530px) {
-  h2 {
+  h1, h2 {
     font-size: 2.6rem;
   }
 }
@@ -70,8 +74,22 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 4rem;
   padding: 10px 20px;
+  max-height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 100px;
+    border-radius: 10px;
+    column-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    column-gap: 4rem;
+  }
 }
 
 .header .header-logo {
@@ -79,9 +97,22 @@ h2 {
   height: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .header .header-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
 .header .navbar {
-  display: none;
   width: 100%;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header .navbar {
+    display: block;
+  }
 }
 
 .header .navbar .nav {
@@ -101,10 +132,40 @@ h2 {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 1rem;
   line-height: 29px;
   color: #000000;
-  padding: 5px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .header .navbar .nav .nav-item a {
+    padding: 5px 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header .navbar .nav .nav-item a {
+    padding: 5px 15px;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header .navbar .nav .nav-item a {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .header .navbar .nav .nav-item a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1530px) {
+  .header .navbar .nav .nav-item a {
+    font-size: 1.6rem;
+  }
 }
 
 .header .navbar .nav .nav-item a.active {
@@ -119,8 +180,103 @@ h2 {
   font-size: 35px;
 }
 
+@media screen and (min-width: 768px) {
+  .header .btn-hamburger {
+    display: none;
+  }
+}
+
+.header .btn-hamburger i {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.navbar-mobile {
+  position: fixed;
+  top: 50px;
+  right: 100%;
+  z-index: 999999;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.navbar-mobile.active {
+  right: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-mobile {
+    display: none;
+  }
+}
+
+.navbar-mobile .fa-circle-xmark {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  font-size: 2rem;
+  color: #ffb400;
+}
+
+.navbar-mobile .nav-mobile {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.navbar-mobile .nav-mobile .nav-mobile-item {
+  width: 100%;
+}
+
+.navbar-mobile .nav-mobile .nav-mobile-item a {
+  font-size: 1.5rem;
+}
+
+.btn-uptotop {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 999999;
+  cursor: pointer;
+}
+
+.btn-uptotop i {
+  font-size: 2rem;
+  color: gray;
+}
+
+@media screen and (min-width: 1530px) {
+  .btn-uptotop i {
+    font-size: 3rem;
+  }
+}
+
+.btn-uptotop i:hover {
+  color: #000000;
+}
+
 .banner {
-  margin-top: 8rem;
+  margin-top: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    margin-top: 8rem;
+  }
 }
 
 .banner img {
@@ -139,6 +295,24 @@ h2 {
 .content {
   padding: 1rem;
   margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .content {
+    padding: 0;
+  }
 }
 
 .content p {
@@ -216,10 +390,23 @@ h2 {
 }
 
 .section1 {
-  margin-top: 5rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .section1 {
+    margin-top: 5rem;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .section1 {
+    padding: 0;
+  }
 }
 
 .section1 .left {
@@ -242,9 +429,33 @@ h2 {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .section1 .right {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section1 .right {
+    padding-left: 4rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section1 .right {
+    padding-left: 5rem;
+  }
+}
+
 .section1 .right ul {
   list-style-type: none;
   list-style-position: inside;
+}
+
+@media screen and (min-width: 1360px) {
+  .section1 .right ul {
+    padding-left: 2rem;
+  }
 }
 
 .section1 .right ul li {
@@ -301,11 +512,37 @@ h2 {
 }
 
 .service .service-body {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 1rem;
   padding-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .service .service-body {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .service .service-body {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .service .service-body {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .service .service-body {
+    padding-left: 0;
+  }
 }
 
 .service .service-body .service-item {
@@ -364,6 +601,13 @@ h2 {
   background-size: cover;
 }
 
+@media screen and (min-width: 1280px) {
+  .section-step {
+    padding-bottom: 3rem;
+    height: 430px;
+  }
+}
+
 .section-step .step-body {
   margin-top: 1rem;
   list-style: none;
@@ -371,6 +615,31 @@ h2 {
   grid-template-columns: 1fr;
   row-gap: 2rem;
   padding-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section-step .step-body {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-step .step-body {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-step .step-body {
+    margin-top: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .section-step .step-body {
+    padding-left: 0;
+  }
 }
 
 .section-step .step-body .step-item {
@@ -463,12 +732,38 @@ h2 {
 }
 
 .document .document-body {
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr;
   list-style: none;
   row-gap: 1rem;
   padding-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .document .document-body {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .document .document-body {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .document .document-body {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .document .document-body {
+    padding-left: 1rem;
+  }
 }
 
 .document .document-body .document-item {
@@ -522,12 +817,38 @@ h2 {
 }
 
 .props .props-body {
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr;
   list-style: none;
   row-gap: 1rem;
   padding-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .props .props-body {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .props .props-body {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .props .props-body {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .props .props-body {
+    padding-left: 0;
+  }
 }
 
 .props .props-body .props-item {
@@ -592,8 +913,32 @@ h2 {
   padding: 0 1rem;
 }
 
+@media screen and (min-width: 768px) {
+  .contact .contact-body {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact .contact-body {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact .contact-body {
+    padding: 0;
+  }
+}
+
 .contact .contact-body .left {
   flex: 1;
+}
+
+@media screen and (min-width: 1280px) {
+  .contact .contact-body .left .cb-body {
+    padding-left: 2rem;
+  }
 }
 
 .contact .contact-body .right {
@@ -604,6 +949,24 @@ h2 {
 @media screen and (min-width: 1024px) {
   .contact .contact-body .right {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact .contact-body .right {
+    border-left: 3px dashed #e3e3e3;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact .contact-body .right .cb-body {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .contact .contact-body .right .cb-body {
+    padding-left: 5rem;
   }
 }
 
@@ -748,7 +1111,7 @@ footer {
   padding: 2rem 1rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1530px) {
   footer {
     padding: 0;
     height: 153px;
@@ -757,15 +1120,27 @@ footer {
 
 footer .footer {
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  footer .footer {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   footer .footer {
-    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1530px) {
+  footer .footer {
+    display: flex;
+    justify-content: space-around;
   }
 }
 
@@ -774,12 +1149,6 @@ footer .footer .footer-item img {
   margin: auto;
   margin-bottom: 1rem;
   margin-top: 1rem;
-}
-
-@media screen and (min-width: 768px) {
-  footer .footer .footer-item img {
-    margin-bottom: 0;
-  }
 }
 
 footer .footer .footer-item p {
