@@ -43,6 +43,7 @@ h2 {
   }
 }
 
+
 .header {
   z-index: 999999;
   position: fixed;
@@ -278,16 +279,16 @@ h2 {
       font-size: 1.1rem;
     }
     @media screen and(min-width: 1024px) {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
     @media screen and(min-width: 1280px) {
-      font-size: 1.4rem;
+      // font-size: 1.4rem;
     }
     @media screen and(min-width: 1360px) {
-      font-size: 1.5rem;
+      // font-size: 1.5rem;
     }
     @media screen and(min-width: 1530px) {
-      font-size: 1.6rem;
+      // font-size: 1.6rem;
     }
   }
   strong {
@@ -301,13 +302,13 @@ h2 {
       font-size: 1.4rem;
     }
     @media screen and(min-width: 1280px) {
-      font-size: 1.5rem;
+      // font-size: 1.5rem;
     }
     @media screen and(min-width: 1360px) {
-      font-size: 1.6rem;
+      // font-size: 1.6rem;
     }
     @media screen and(min-width: 1530px) {
-      font-size: 1.7rem;
+      // font-size: 1.7rem;
     }
   }
 }
@@ -323,13 +324,13 @@ h2 {
   padding: 1rem;
 
   @media screen and(min-width: 1024px) {
-    margin-top: 5rem; //desktop
+    margin-top: 5rem;
     flex-direction: row;
   }
   @media screen and(min-width: 1280px) {
   }
   @media screen and(min-width: 1360px) {
-    padding: 0; //desktop
+    padding: 0;
   }
 
   .left {
@@ -391,13 +392,13 @@ h2 {
           font-size: 1.4rem;
         }
         @media screen and(min-width: 1280px) {
-          font-size: 1.5rem;
+          // font-size: 1.5rem;
         }
         @media screen and(min-width: 1360px) {
-          font-size: 1.6rem;
+          // font-size: 1.6rem;
         }
         @media screen and(min-width: 1530px) {
-          font-size: 1.7rem;
+          // font-size: 1.7rem;
         }
       }
     }
@@ -449,16 +450,16 @@ h2 {
           font-size: 1.1rem;
         }
         @media screen and(min-width: 1024px) {
-          font-size: 1.3rem;
+          font-size: 1.2rem;
         }
         @media screen and(min-width: 1280px) {
-          font-size: 1.4rem;
+          // font-size: 1.3rem;
         }
         @media screen and(min-width: 1360px) {
-          font-size: 1.5rem;
+          // font-size: 1.4rem;
         }
         @media screen and(min-width: 1530px) {
-          font-size: 1.6rem;
+          // font-size: 1.5rem;
         }
       }
     }
@@ -526,16 +527,16 @@ h2 {
           font-size: 1.1rem;
         }
         @media screen and(min-width: 1024px) {
-          font-size: 1.3rem;
+          font-size: 1.2rem;
         }
         @media screen and(min-width: 1280px) {
-          font-size: 1.4rem;
+          font-size: 1.3rem;
         }
         @media screen and(min-width: 1360px) {
-          font-size: 1.5rem;
+          font-size: 1.4rem;
         }
         @media screen and(min-width: 1530px) {
-          font-size: 1.6rem;
+          font-size: 1.5rem;
         }
       }
 
@@ -550,16 +551,16 @@ h2 {
           font-size: 1.1rem;
         }
         @media screen and(min-width: 1024px) {
-          font-size: 1.3rem;
+          font-size: 1.2rem;
         }
         @media screen and(min-width: 1280px) {
-          font-size: 1.4rem;
+          font-size: 1.3rem;
         }
         @media screen and(min-width: 1360px) {
-          font-size: 1.5rem;
+          font-size: 1.4rem;
         }
         @media screen and(min-width: 1530px) {
-          font-size: 1.6rem;
+          font-size: 1.5rem;
         }
       }
     }
@@ -610,16 +611,16 @@ h2 {
           font-size: 1.1rem;
         }
         @media screen and(min-width: 1024px) {
-          font-size: 1.3rem;
+          font-size: 1.2rem;
         }
         @media screen and(min-width: 1280px) {
-          font-size: 1.4rem;
+          font-size: 1.3rem;
         }
         @media screen and(min-width: 1360px) {
-          font-size: 1.5rem;
+          font-size: 1.4rem;
         }
         @media screen and(min-width: 1530px) {
-          font-size: 1.6rem;
+          font-size: 1.5rem;
         }
       }
     }
@@ -671,16 +672,16 @@ h2 {
           font-size: 1.1rem;
         }
         @media screen and(min-width: 1024px) {
-          font-size: 1.3rem;
+          font-size: 1.2rem;
         }
         @media screen and(min-width: 1280px) {
-          font-size: 1.4rem;
+          font-size: 1.3rem;
         }
         @media screen and(min-width: 1360px) {
-          font-size: 1.5rem;
+          font-size: 1.4rem;
         }
         @media screen and(min-width: 1530px) {
-          font-size: 1.6rem;
+          font-size: 1.5rem;
         }
       }
     }
@@ -784,16 +785,16 @@ h2 {
             font-size: 1.1rem;
           }
           @media screen and(min-width: 1024px) {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
           }
           @media screen and(min-width: 1280px) {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
           }
           @media screen and(min-width: 1360px) {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
           }
           @media screen and(min-width: 1530px) {
-            font-size: 1.6rem;
+            font-size: 1.5rem;
           }
         }
       }

@@ -354,25 +354,7 @@ h2 {
 
 @media screen and (min-width: 1024px) {
   .content p {
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .content p {
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (min-width: 1360px) {
-  .content p {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 1530px) {
-  .content p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -390,24 +372,6 @@ h2 {
 @media screen and (min-width: 1024px) {
   .content strong {
     font-size: 1.4rem;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .content strong {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 1360px) {
-  .content strong {
-    font-size: 1.6rem;
-  }
-}
-
-@media screen and (min-width: 1530px) {
-  .content strong {
-    font-size: 1.7rem;
   }
 }
 
@@ -515,24 +479,6 @@ h2 {
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .section1 .right ul li {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 1360px) {
-  .section1 .right ul li {
-    font-size: 1.6rem;
-  }
-}
-
-@media screen and (min-width: 1530px) {
-  .section1 .right ul li {
-    font-size: 1.7rem;
-  }
-}
-
 .service {
   margin-top: 4rem;
 }
@@ -596,25 +542,7 @@ h2 {
 
 @media screen and (min-width: 1024px) {
   .service .service-body .service-item span {
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .service .service-body .service-item span {
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (min-width: 1360px) {
-  .service .service-body .service-item span {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 1530px) {
-  .service .service-body .service-item span {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -695,25 +623,25 @@ h2 {
 
 @media screen and (min-width: 1024px) {
   .section-step .step-body .step-item .num-box {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .section-step .step-body .step-item .num-box {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
 @media screen and (min-width: 1360px) {
   .section-step .step-body .step-item .num-box {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
 @media screen and (min-width: 1530px) {
   .section-step .step-body .step-item .num-box {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -731,25 +659,25 @@ h2 {
 
 @media screen and (min-width: 1024px) {
   .section-step .step-body .step-item span {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .section-step .step-body .step-item span {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
 @media screen and (min-width: 1360px) {
   .section-step .step-body .step-item span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
 @media screen and (min-width: 1530px) {
   .section-step .step-body .step-item span {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -816,25 +744,25 @@ h2 {
 
 @media screen and (min-width: 1024px) {
   .document .document-body .document-item span {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .document .document-body .document-item span {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
 @media screen and (min-width: 1360px) {
   .document .document-body .document-item span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
 @media screen and (min-width: 1530px) {
   .document .document-body .document-item span {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -901,25 +829,25 @@ h2 {
 
 @media screen and (min-width: 1024px) {
   .props .props-body .props-item span {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .props .props-body .props-item span {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
 @media screen and (min-width: 1360px) {
   .props .props-body .props-item span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
 @media screen and (min-width: 1530px) {
   .props .props-body .props-item span {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -1062,25 +990,25 @@ h2 {
 
 @media screen and (min-width: 1024px) {
   .contact .contact-body .cb-body .cb-item span {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .contact .contact-body .cb-body .cb-item span {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
 @media screen and (min-width: 1360px) {
   .contact .contact-body .cb-body .cb-item span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
 @media screen and (min-width: 1530px) {
   .contact .contact-body .cb-body .cb-item span {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 }
 
